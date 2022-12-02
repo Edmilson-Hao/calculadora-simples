@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+#main {
+    display: block;
+    margin: 25vh auto;
+    width: 50vh;
+    height: 50vh;
+    background-color: blue;
+    padding: 0.5vh;
+    border-radius: 5px;
+}
+
+
+
+
+#display {
+    display: relative;
+    width: 48vh;
+    height: 14vh;
+    margin: .5vh auto 0;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 5px;
+}
+
+#options {
+
+}
