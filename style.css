@@ -6,56 +6,77 @@
 
 body {
     background-color: rgba(0, 0, 0, .5);
+    color: white;
 }
 
 div {
     background-color: rgba(0, 0, 0, .5);
-    margin: auto;
+    border-radius: 5px;
 }
 
-#main {
+.main {
     display: block;
-    margin-top: 25vh;
+    margin: 25vh auto;
     width: 50vh;
     height: 50vh;
     padding: 0.5vh;
     border-radius: 5px;
 }
 
-#main > div {
-    display: inline-block;
-    margin: .5vh;
+.secondary {
+    margin-bottom: .5vh;
     border-radius: 5px;
-    width: 48vh;
+    width: 49vh;
+}
+
+.tertiary {
+    width: 11.5vh;
+    height: 7vh;
 }
 
 #display {
     height: 14vh;
-}
-
-#options {
-    padding: 0;
-}
-
-/*#options > div , #numbers > div , #operations > div{*/
-div > div > div {
-    display: inline-block;
-    width: 11.5vh;
-    height: 7vh;
-    border-radius: 5px;
+    width: 49vh;
 }
 
 #numbers {
-    max-width: 35vh;
+    width: 36.5vh;
     margin: 0;
+}
+
+#options {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
 }
 
 #operations {
-    max-width: 10vh;
-    margin: 0;
+    width: 7vh;
+    margin-left: 1vh;
     height: 26vh;
+    width: 11.5vh;
+}
+#thirdRow {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    flex-direction: row;
 }
 
-#numbers > div , #operations > div {
-    width: 10vh;
+#numbers > .tertiary {
+    display: inline-block;
+    height: 6vh;
+    margin-bottom: .7vh;
+    margin-left: .3vh;
+}
+
+#numbers > div:nth-child(10), #numbers > div:nth-child(11) {
+    width: 17.6vh;
+}
+
+#operations > .tertiary {
+    display: inline-block;
+    height: 6.2vh;
+    width: 11vh;
+    margin-bottom: .7vh;
+    margin-left: .3vh;
 }
