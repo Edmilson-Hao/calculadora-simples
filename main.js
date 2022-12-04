@@ -44,4 +44,6 @@ document.addEventListener('click', e => {
     if(display.innerText == 0 ) display.innerText = e.target.innerText
     else display.innerText += e.target.innerText
 })
+
+eval(display.innerText)
 */
