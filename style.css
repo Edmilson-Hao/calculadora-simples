@@ -12,6 +12,9 @@ body {
 div {
     background-color: rgba(0, 0, 0, .5);
     border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 6.5vh;
 }
 
 .main {
@@ -30,13 +33,16 @@ div {
 }
 
 .tertiary {
-    width: 11.5vh;
-    height: 7vh;
+    width: 11.4vh;
+    height: 6vh;
 }
 
 #display {
     height: 14vh;
     width: 49vh;
+    text-align: right;
+    vertical-align: bottom;
+    line-height: 25vh;
 }
 
 #numbers {
@@ -53,9 +59,10 @@ div {
 #operations {
     width: 7vh;
     margin-left: 1vh;
-    height: 26vh;
+    height: 27vh;
     width: 11.5vh;
 }
+
 #thirdRow {
     display: flex;
     background-color: rgba(0, 0, 0, 0);
@@ -67,6 +74,7 @@ div {
     height: 6vh;
     margin-bottom: .7vh;
     margin-left: .3vh;
+    vertical-align: middle;
 }
 
 #numbers > div:nth-child(10), #numbers > div:nth-child(11) {
@@ -75,8 +83,8 @@ div {
 
 #operations > .tertiary {
     display: inline-block;
-    height: 6.2vh;
-    width: 11vh;
+    height: 6.15vh;
+    width: 10.5vh;
     margin-bottom: .7vh;
     margin-left: .3vh;
 }
